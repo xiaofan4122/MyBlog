@@ -1,47 +1,66 @@
 ---
 sidebar_position: 1
+# tags: []
 ---
 
-# Tutorial Intro
+# 简介
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## 缘由
 
-## Getting Started
+我是从大一就进入车队的，但我原先的学姐并没有给我太多的帮助，基本是在自学中不断把电子电路组的工作完成的，我深知这种从零开始的痛苦，所以想要多在”车队传承“方面下一点功夫。
 
-Get started by **creating a new site**.
+但是！我本人要去考研啦！所以只能退居二线，但我感觉组员们还有很多的东西要学习，为了发挥一点余热，就在这里开一个网站来介绍我们组的工作和相关知识，希望能帮到大家。
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+:::info
 
-### What you'll need
+不过我自己完全写出来的工作量还是有些多，部分页面的内容会**有组员参与**，具体贡献者会在文章中注明
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+:::
 
-## Generate a new site
+## 关于本网站
 
-Generate a new Docusaurus site using the **classic template**.
+本页面由[Docusaurus](https://docusaurus.io/zh-CN/)生成模板后经过修改再建立的，部署到了自己的[github仓库](https://github.com/xiaofan4122/MyBlog)上，参考了[此篇](https://zhuanlan.zhihu.com/p/567578277)知乎文章，不过因为github在墙外，所以访问偶尔可能会出问题。
 
-The classic template will automatically be added to your project after you run the command:
+另外我完全木有js基础，所以界面非常简陋且存在很多问题
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+搭好之后网站之后其实只要写.md文件就好了，用Typora写起来还是比较方便的。
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+:::tip 
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Typora支持的语法本页面基本都支持，不过用两个`=`实现高亮是不行滴，但是流程图、Latex公式都可以实现
+另外还可以使用MDX语法实现更多的效果，这个写起来还有点麻烦，我就边学边试吧，详见：[Markdown 特性 | Docusaurus](https://docusaurus.io/zh-CN/docs/markdown-features)
 
-## Start your site
+:::
 
-Run the development server:
+## 基本内容
 
-```bash
-cd my-website
-npm run start
-```
+目前暂定如下：
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- 电子电路组介绍
+  - 负责任务
+  - 整车简介
+  - 规则部分
+- 基本技能
+  - 电路基础知识
+  - 画板
+  - 锡焊
+  - 测试
+- TSAL
+  - 定义
+  - 规则要求
+  - PCB设计
+  - 放置位置
+  - 测试方法
+- BSPD
+- 继电器板
+- 配电板
+- 传感器
+- 线束
+  - 要求
+  - 现有文档
+- 电池箱
+  - 基本构造
+  - 低压部分
+- 组内资产
+  - 设备
+  - 元件
