@@ -1,0 +1,33 @@
+cd F:\AERO\Blog\my-website
+F:
+git config --global user.name "xiaofan4122"
+git config --global user.email "847964640@qq.com"
+git init
+git add -A
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/xiaofan4122/docusaurus-public-deoloy-github.git
+git push -u origin master
+npm run build
+set "USE_SSH=true" && yarn deploy
+set "GIT_USER=xiaofan4122" && yarn deploy
+set "GIT_USER=xiaofan4122 USE_SSH=true" && yarn deploy
+// highlight-next-line
+// highlight-start
+// highlight-end
+
+<details>
+  <summary>Toggle me!</summary>
+  <div>
+    <div>This is the detailed content</div>
+    <br/>
+    <details>
+      <summary>
+        Nested toggle! Some surprise inside...
+      </summary>
+      <div>😲😲😲😲😲</div>
+    </details>
+  </div>
+</details>
+
+// "description": "123"
