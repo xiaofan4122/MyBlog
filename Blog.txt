@@ -7,6 +7,7 @@ git add -A
 git commit -m "first commit"
 git branch -M master
 git remote add origin https://github.com/xiaofan4122/docusaurus-public-deoloy-github.git
+https://xiaofan4122.github.io/MyBlog/
 git push -u origin master
 npm run build
 set "USE_SSH=true" && yarn deploy
