@@ -12,7 +12,7 @@ const today = new Date(timeElapsed);
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '小帆の知识库',
-  tagline: '尝试自己搭一个网站',
+  tagline: '记录下学到的知识',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -45,6 +45,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: ({versionDocsDirPath, docPath}) =>
@@ -95,6 +96,7 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       docs: {
         sidebar: {
+          hideable: true,
           autoCollapseCategories: true,
         },
       },
@@ -111,6 +113,12 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'AERO赛车队电子电路组',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'WiKiSidebar',
+            position: 'left',
+            label: '我的维基',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           // {
