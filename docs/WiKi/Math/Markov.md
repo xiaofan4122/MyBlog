@@ -6,7 +6,9 @@ sidebar_position: 1
 简要介绍马尔科夫链
 
 > 来源：以下内容节选自知乎
+> 
 > 作者：许铁-巡洋舰科技
+> 
 > 链接：https://www.zhihu.com/question/26694486/answer/349872296
 
 ## 经典表述

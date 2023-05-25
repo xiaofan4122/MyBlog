@@ -86,12 +86,12 @@ $$
 > $$
 > \int \frac{2-x}{\sqrt{3+2x-x^2}}dx
 > $$
-> 提示：令m=x-1，对形如$\int\frac{x}{\sqrt{ax^2+b}}dx$的形式要敏感，x可以拿到dx里变成$\frac{1}{2}xdx$
+> 提示：令m=x-1，对形如$\int\frac{x}{\sqrt{ax^2+b}}dx$的形式要敏感，x可以拿到dx里变成$\frac{1}{2}xdx=dx^2$
 >
 > ---
 >
 > $$
-> \int \sqrt{\frac{3-2x}{3+2x}}
+> \int \sqrt{\frac{3-2x}{3+2x}}dx
 > $$
 >
 > 提示：直接令$t=\sqrt{\frac{3-2x}{3+2x}}$，代换后只剩下关于t的多项式了
@@ -110,7 +110,7 @@ $$
 $$
 \int R\left(x,\sqrt[n]{\frac{ax+b}{cx+d}}\right)dx
 $$
-的简单无理函数积分，统一方法就是用t直接替换
+的简单无理函数积分，统一方法就是用t直接替换。一般根号里的分式是齐次的时候会比较好解。
 
 :::
 
@@ -184,3 +184,6 @@ $$
 >
 > 方法二：用二倍角公式两次展开
 
+> 例2：计算$\int ln\left(1+\sqrt\frac{1+x}{x}\right)dx$
+>
+> 提示：令$t=\sqrt\frac{1+x}{x}$，转换成多项式乘ln的形式，再利用分部积分把ln去掉
