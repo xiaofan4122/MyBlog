@@ -1,5 +1,5 @@
 ---
-sider_position: 1
+sidebar_position: 1
 ---
 
 # 劳斯判据(Routh Criterion)

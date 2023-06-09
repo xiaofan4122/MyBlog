@@ -1,5 +1,5 @@
 ---
-sider_position: 2
+sidebar_position: 2
 ---
 
 # 第二章——控制系统的数学模型
