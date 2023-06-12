@@ -39,7 +39,7 @@ Pr(X_{n+1}=x|X_n=y)=Pr(X_{n}=x|X_n-1=y)
 $$
 在这个极度简化的模型下，**markov process** 可归结为一个**在态空间里的跃迁轨迹**。下图的随机变量是横轴（a，b，c，d四个态），时间是纵轴。系统从此刻的态跃迁到下一刻的态都是随机的，而且跃迁的概率由一个数字决定，这个数字不由轨迹的历史决定，因而markov。从此刻任一状态到达下一刻任意状态包含4x4个概率，因此可以写作一个4x4的[跃迁矩阵](https://www.zhihu.com/search?q=跃迁矩阵&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={"sourceType"%3A"answer"%2C"sourceId"%3A349872296})。跃迁矩阵Pij涵盖了过程的全部信息。
 
-![img](./assets/e9c2d28dd0e19b307742358611df19d3_1440w.png)
+<center><img src={require('./assets/e9c2d28dd0e19b307742358611df19d3_1440w.png').default} alt="img" width=" 50%" /></center>
 
 :::info
 
@@ -115,7 +115,7 @@ A就是跃迁矩阵，而向量P即概率场，就是经过时间t，系统状�
 
 这个问题可以推出一些有趣的问题， 比如人口中各大姓氏的比例。 一般情况下，各大姓氏的比例在各个种群中符合相同的统计规律（幂律），就是Branching Process 的结果。
 
-![img](./assets/7a1acbf5d838d43f364206bb622bdc68_1440w.webp)
+<center><img src={require('./assets/7a1acbf5d838d43f364206bb622bdc68_1440w.webp').default} alt="img" width="67%" /></center>
 
 ### 泊松过程 Poission Process
 
@@ -127,7 +127,7 @@ P(X=x)=\frac{\lambda^x-e^{-\lambda}}{x!}
 $$
 泊松分布一般的形状，三条曲线代表了平均值不同的三个泊松分布：
 
-![img](./assets/121123985574788613c2396c859a638d_1440w.png)
+<center><img src={require('./assets/121123985574788613c2396c859a638d_1440w.png').default} alt="img" width="80%" /></center>
 
 泊松过程，恐怕是最简单的随机过程，也是所有随机过程的参考系-好比物理的惯性定律。我们研究一个随机过程时候，第一个做的就是与泊松做比较。
 
@@ -145,7 +145,7 @@ Wiener Process， 其原型就是大名鼎鼎的布朗运动。这恐怕是在�
 
 上上下下的随机游走表现的美丽轨迹，也是众多股市爱好者经常看到的形状。
 
-![img](./assets/881aa6dbfe3dcb37e4a29e8a5feff02d_1440w.png)
+<center><img src={require('./assets/881aa6dbfe3dcb37e4a29e8a5feff02d_1440w.png').default} alt="img" width="50%" /></center>
 
 Wiener Process 所依赖的假设特别简单： 醉汉走出的每一步的距离和上一步无关（依然在说马氏性），而这一步走出的长度是由一个确定的高斯分布产生的随机数。 如果这个高斯分布的期望为0，那么这个过程就是一个纯粹的随机游走，反之则是一个但有漂移（drift）的随机游走。
 

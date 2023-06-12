@@ -40,7 +40,7 @@ sidebar_position: 1
 
 :::
 
-![img](./assets/v2-4b6d2c53269a692a382fdfdba7342eab_1440w.webp)
+<img src="./assets/v2-4b6d2c53269a692a382fdfdba7342eab_1440w.webp" alt="img" style="zoom: 67%;" />
 
 来源：[劳斯稳定判据的数学应用(重点)](https://zhuanlan.zhihu.com/p/374466146)
 

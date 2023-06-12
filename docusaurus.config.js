@@ -70,7 +70,16 @@ const config = {
   plugins: [
     // ...
     'plugin-image-zoom',
-    '@docusaurus/plugin-sitemap',
+    [require.resolve('@docusaurus/plugin-sitemap'),
+    {
+      id:"sitemap",
+      changefreq: 'weekly',
+      priority: 0.5,
+      ignorePatterns: ['/tags/**'],
+      filename: 'sitemap.xml',
+    },
+  ]
+    ,
     [require.resolve("@easyops-cn/docusaurus-search-local"),
     {
       hashed: true,
