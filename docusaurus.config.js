@@ -69,6 +69,8 @@ const config = {
   ],
   plugins: [
     // ...
+    'plugin-image-zoom',
+    '@docusaurus/plugin-sitemap',
     [require.resolve("@easyops-cn/docusaurus-search-local"),
     {
       hashed: true,
