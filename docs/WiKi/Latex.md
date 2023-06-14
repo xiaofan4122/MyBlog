@@ -1,3 +1,7 @@
+---
+sidebar_position: 99
+---
+
 # Latex 语法
 
 记不住的时候看一看
